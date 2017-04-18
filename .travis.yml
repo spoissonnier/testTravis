@@ -1,3 +1,7 @@
 language: java
 
-gradle
+jdk:
+  - openjdk7
+
+services:
+  - gradle
